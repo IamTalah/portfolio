@@ -1,0 +1,87 @@
+.about{
+
+    width: 100%;
+    margin: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.about .left {
+    border-radius: 15px;
+    background: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+    margin: auto;
+    padding: 1rem;
+    max-width: 700px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about .left h1{
+    text-align:center;
+}
+
+.about .left p{
+    margin: 1.2rem 0;
+    text-align:justify;
+}
+
+.left .myself-img{
+    margin-top:10px;
+    width: 300px;
+    height: 400px;
+}
+
+.left .btn{
+    border-radius: 10px;
+}
+
+.about .right{
+    border-radius: 15px;
+    background: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+    margin: auto;
+    padding: 1rem;
+    max-width: 700px;
+}
+
+.right .img-container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.right .img{
+    max-width: 90%;
+    border: 1px solid #333;
+}
+
+.right .top{
+    grid-column: 1 / span 8;
+    grid-row: 1;
+    padding-top: 30%;
+    padding-left: 10%;
+    z-index: 6;
+}
+
+.right .bottom{
+    grid-column: 4 / -1;
+    grid-row: 1;
+    z-index: 5;
+}
